@@ -1,0 +1,4 @@
+@import "tailwindcss";
+
+.wrap
+{ @apply w-7xl mx-auto }
