@@ -1,27 +1,117 @@
 <!doctype html>
 <html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
+
 <body class="bg-[#252525] text-[#efefef]">
     <nav class="border-double border-b-2 border-amber-300 p-4 ">
         <div class="flex flex-row justify-between items-center wrap">
             <h3 class="text-2xl font-sans font-bold">LOGO</h3>
             <div class="w-[200px] flex items-center justify-between">
                 <a href="/">Home</a>
-                <button class="bg-yellow-400 text-[#252525] border-none rounded-2xl px-8 py-2 cursor-pointer">Login</button>
+                <button
+                    class="bg-yellow-400 text-[#252525] border-none rounded-2xl px-8 py-2 cursor-pointer">Login</button>
             </div>
         </div>
     </nav>
     <header class="py-20 ">
         <div class="wrap text-center">
             <h3 class="text-amber-400 text-4xl font-semibold capitalize">Lorem ipsum dolor sit amet</h3>
-            <div class="my-8">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae consectetur, unde ipsum hic inventore reprehenderit.</div>
-            <button class="w-[250px] h-[35px] bg-yellow-400 border-none rounded-2xl text-[#252525] text-md font-semibold shadow-xl cursor-pointer
-            transition duration-200 ease-linear hover:transition hover:bg-transparent hover:text-[#efefef] hover:duration-200 hover:ease-linear">View Products</button>
+            <div class="my-8">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae consectetur, unde
+                ipsum hic inventore reprehenderit.</div>
+            <button
+                class="w-[250px] h-[35px] bg-yellow-400 border-none rounded-2xl text-[#252525] text-md font-semibold shadow-xl cursor-pointer
+            transition duration-200 ease-linear hover:transition hover:bg-transparent hover:text-[#efefef] hover:duration-200 hover:ease-linear">View
+                Products</button>
         </div>
     </header>
+    <section class="py-10">
+        <div class="wrap text-center">
+            <h3 class="text-yellow-400 text-4xl font-bold">Courses</h3>
+            <div class="pt-20 flex items-center justify-between flex-wrap">
+                <div class="my-10 w-[30%] shadow-lg">
+                    <img src="./sample-image/react-js.png" alt="css" class="w-full rounded h-auto" />
+                    <div class="flex flex-col items-start my-5 pl-2">
+                        <div class="text-2xl font-semibold">React Course</div>
+                        <div class="flex justify-between items-center w-full p-0">
+                            <div class="text-xl mt-2"><i class="fa-regular fa-clock"></i> 34 Hours</div>
+                            <div class="text-xl mt-2"><i class="fa-solid fa-user"></i> Views: 917</div>
+                            <div class="text-xl mt-2"><i class="fa-solid fa-bookmark"></i>Bookmark</div>
+                        </div>
+                        <h3 class="text-xl mt-5 text-left">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Suscipit, ipsa!</h3>
+                    </div>
+                    <div class="flex justify-between items-center pl-2 my-8">
+                        <span class="text-xl">Price: 34$ </span>
+                        <button class="bg-yellow-400 px-8 py-1 font-semibold text-[#252525] rounded-lg border-none mr-4 cursor-pointer
+                        transition duration-300 ease-linear hover:transition hover:duration-300 hover:ease-linear
+                        hover:bg-[#efefef]">Add To Card</button>
+                    </div>
+                </div>
+                <div class="my-10 w-[30%] shadow-lg">
+                    <img src="./sample-image/javascript.png" alt="css" class="w-full rounded h-auto" />
+                    <div class="flex flex-col items-start my-5 pl-2">
+                        <div class="text-2xl font-semibold">JS Course</div>
+                        <div class="flex justify-between items-center w-full p-0">
+                            <div class="text-xl mt-2"><i class="fa-regular fa-clock"></i> 12 Hours</div>
+                            <div class="text-xl mt-2"><i class="fa-solid fa-user"></i> Views: 247</div>
+                            <div class="text-xl mt-2"><i class="fa-solid fa-bookmark"></i>Bookmark</div>
+                        </div>
+                        <h3 class="text-xl mt-5 text-left">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Suscipit, ipsa!</h3>
+                    </div>
+                    <div class="flex justify-between items-center pl-2 my-8">
+                        <span class="text-xl">Price: 20$ </span>
+                        <button class="bg-yellow-400 px-8 py-1 font-semibold text-[#252525] rounded-lg border-none mr-4 cursor-pointer
+                        transition duration-300 ease-linear hover:transition hover:duration-300 hover:ease-linear
+                        hover:bg-[#efefef]">Add To Card</button>
+                    </div>
+                </div>
+                <div class="my-10 w-[30%] shadow-lg">
+                    <img src="./sample-image/node-js.jpg" alt="css" class="w-full rounded h-auto" />
+                    <div class="flex flex-col items-start my-5 pl-2">
+                        <div class="text-2xl font-semibold">NodeJS Course</div>
+                        <div class="flex justify-between items-center w-full p-0">
+                            <div class="text-xl mt-2"><i class="fa-regular fa-clock"></i> 38 Hours</div>
+                            <div class="text-xl mt-2"><i class="fa-solid fa-user"></i> Views: 1241</div>
+                            <div class="text-xl mt-2"><i class="fa-solid fa-bookmark"></i>Bookmark</div>
+                        </div>
+                        <h3 class="text-xl mt-5 text-left">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Suscipit, ipsa!</h3>
+                    </div>
+                    <div class="flex justify-between items-center pl-2 my-8">
+                        <span class="text-xl">Price: 33$ </span>
+                        <button class="bg-yellow-400 px-8 py-1 font-semibold text-[#252525] rounded-lg border-none mr-4 cursor-pointer
+                        transition duration-300 ease-linear hover:transition hover:duration-300 hover:ease-linear
+                        hover:bg-[#efefef]">Add To Card</button>
+                    </div>
+                </div>
+                <div class="my-10 w-[30%] shadow-lg">
+                    <img src="./sample-image/mern.png" alt="css" class="w-full rounded h-auto" />
+                    <div class="flex flex-col items-start my-5 pl-2">
+                        <div class="text-2xl font-semibold">MERN Course</div>
+                        <div class="flex justify-between items-center w-full p-0">
+                            <div class="text-xl mt-2"><i class="fa-regular fa-clock"></i> 23 Hours</div>
+                            <div class="text-xl mt-2"><i class="fa-solid fa-user"></i> Views: 582</div>
+                            <div class="text-xl mt-2"><i class="fa-solid fa-bookmark"></i>Bookmark</div>
+                        </div>
+                        <h3 class="text-xl mt-5 text-left">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Suscipit, ipsa!</h3>
+                    </div>
+                    <div class="flex justify-between items-center pl-2 my-8">
+                        <span class="text-xl">Price: 35$ </span>
+                        <button class="bg-yellow-400 px-8 py-1 font-semibold text-[#252525] rounded-lg border-none mr-4 cursor-pointer
+                        transition duration-300 ease-linear hover:transition hover:duration-300 hover:ease-linear
+                        hover:bg-[#efefef]">Add To Card</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
